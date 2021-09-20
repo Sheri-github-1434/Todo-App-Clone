@@ -39,6 +39,7 @@ export const TodoList: React.FC<Props> = ({ todos, toggleTodo }) => {
       localStorage.getItem("todos")
   }, [todos])
 
+  console.log(localStorage.getItem("todos"))
 
   return (
     <>
