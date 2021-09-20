@@ -11,6 +11,7 @@ import Sidebar from './components/Todofiles/Sidebar';
 const App = () => {
   return (   
   <div>
+    <h1>Todos App</h1>
    <Router>
          <Sidebar />
               <Switch>
